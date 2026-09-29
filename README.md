@@ -240,14 +240,13 @@ DAY4_NOTEBOOK8_CORE=PASS
 Bayan-NLP-Project/
 ├── README.md
 ├── DECISIONS.md
-├── EVALUATION_REPORT.md
 ├── BENCHMARKS.md
 ├── PROJECT_SUMMARY.json
 ├── requirements.txt
 ├── notebooks/
 │   └── bayan_NLP_ANAS_AI_Mutairi.ipynb
 ├── reports/
-│   └── README.md
+│   └── EVALUATION_REPORT.md
 └── tests/
     └── README.md
 ```
