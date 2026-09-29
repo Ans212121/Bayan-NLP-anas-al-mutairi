@@ -1,0 +1,59 @@
+{
+  "project_name": "Bayan",
+  "student": "Anas Ibrahim Al-Mutairi",
+  "program": "Applied Natural Language Processing",
+  "core_validation": {
+    "DAY1_NOTEBOOK1_CORE": "PASS",
+    "DAY1_NOTEBOOK2_CORE": "PASS",
+    "DAY2_NOTEBOOK3_CORE": "PASS",
+    "DAY2_NOTEBOOK4_CORE": "PASS",
+    "DAY3_NOTEBOOK6_CORE": "PASS",
+    "DAY3_NOTEBOOK7_CORE": "PASS",
+    "DAY4_NOTEBOOK8_CORE": "PASS"
+  },
+  "classification": {
+    "baseline_validation_macro_f1": 0.6666666666666666,
+    "transformer_validation_macro_f1": 1.0,
+    "baseline_test_macro_f1": 0.7333333333333333,
+    "transformer_test_macro_f1": 0.8666666666666667,
+    "transformer_test_accuracy": 0.875,
+    "selected_epoch": 9
+  },
+  "ner": {
+    "recall": 0.5,
+    "f1": 0.5714285714285715,
+    "final_epoch_loss": 0.0427
+  },
+  "qa": {
+    "loss": 3.6450522740681968,
+    "valid_span": true,
+    "honest_no_answer": true
+  },
+  "semantic_search": {
+    "recall_at_3": 1.0,
+    "mrr_at_3_before": 0.6666666666666666,
+    "mrr_at_3_after": 0.7222222222222223,
+    "mrr_at_3_delta": 0.05555555555555569,
+    "validation_threshold": 0.4592095613479614,
+    "validation_accuracy": 1.0,
+    "frozen_threshold_no_answer_accuracy": 1.0
+  },
+  "evaluation": {
+    "behavioural_passed": 3,
+    "behavioural_total": 6,
+    "behavioural_pass_rate": 0.5
+  },
+  "optimisation": {
+    "pytorch_parameter_size_mib": 16.732,
+    "onnx_fp32_size_mib": 16.788,
+    "int8_size_mib": 4.287,
+    "onnx_fp32_prediction_agreement": 1.0,
+    "onnx_max_abs_logits_diff": 1.6391277313232422e-07,
+    "int8_prediction_agreement": 1.0,
+    "onnx_fp32_p95_ms": 9.541,
+    "int8_p95_ms": 7.922,
+    "selected_for_service": "onnx-dynamic-int8",
+    "decision": "ADOPT_INT8",
+    "scope_note": "SYSTEMS_SMOKE_NOT_A_SHIP_DECISION"
+  }
+}
