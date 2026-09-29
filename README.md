@@ -3,6 +3,9 @@
 **Name:** Anas Ibrahim Al-Mutairi  
 **Program:** Applied Natural Language Processing  
 **Project Name:** Bayan  
+**Instructor**/**اMeaad Al-Marri**
+
+**المدربة / Instructor* ميعاد المري — Meaad Al-Marri
 https://github.com/SDAIAAcademy
 
 ## Project Overview
