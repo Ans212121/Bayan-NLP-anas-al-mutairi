@@ -1,0 +1,19 @@
+{
+  "provenance": {
+    "cell": 71,
+    "source_sha256": "8dcf084ae88739d54b01a3ff6364b6d7f10afa5f51704306682edea865570379",
+    "kind": "saved_notebook_output"
+  },
+  "data": {
+    "result_type": "MEASURED_SMOKE",
+    "reranker_id": "cross-encoder/mmarco-mMiniLMv2-L12-H384-v1",
+    "candidate_count": 6,
+    "answerable_test_queries": 6,
+    "mrr_at_3_before": 0.6666666666666666,
+    "mrr_at_3_after": 0.7222222222222223,
+    "mrr_at_3_delta": 0.05555555555555569,
+    "warmup_excluded": true,
+    "decision": "ADOPT_FOR_EXPERIMENT",
+    "latency_note": "measured on CPU; runtime-dependent"
+  }
+}
