@@ -160,17 +160,18 @@ Decision:
 Validation:
 - `DAY3_NOTEBOOK6_CORE=PASS`
 
-### T5 — Evaluation and Error Analysis
-Implemented:
-- validation-only evaluation
-- slice-based analysis
-- confidence intervals
-- paired comparison
-- small-slice flags
-- behavioural tests
-- manual error taxonomy
-- three prioritised fixes
-- traceable report generation
+### T5 Results
+
+- Behavioural tests passed: **3 / 6**
+- Behavioural pass rate: **0.5000**
+- Slice-based evaluation: **Completed**
+- Confidence-interval analysis: **Completed**
+- Paired comparison: **Completed**
+- Small-slice analysis: **Completed**
+- Manual error taxonomy: **Completed**
+- Three prioritised fixes: **Documented**
+- Traceable evaluation report: **Generated**
+- Final validation: `DAY3_NOTEBOOK7_CORE=PASS`
 
 Course-fixture behavioural tests:
 - Passed: **3 / 6**
