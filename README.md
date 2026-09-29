@@ -5,7 +5,6 @@
 **Project Name:** Bayan  
 **Instructor**/**اMeaad Al-Marri**
 
-**المدربة / Instructor* ميعاد المري — Meaad Al-Marri
 https://github.com/SDAIAAcademy
 
 ## Project Overview
