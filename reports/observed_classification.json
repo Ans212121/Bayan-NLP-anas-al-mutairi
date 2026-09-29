@@ -1,0 +1,31 @@
+{
+  "provenance": {
+    "cell": 39,
+    "source_sha256": "8dcf084ae88739d54b01a3ff6364b6d7f10afa5f51704306682edea865570379",
+    "kind": "saved_notebook_output"
+  },
+  "data": {
+    "result_type": "MEASURED_SMOKE",
+    "data_source": "github_course_file",
+    "model_id": "distilbert/distilbert-base-multilingual-cased",
+    "device": "cpu",
+    "training_mode": "partial_finetune_cpu",
+    "seed": 42,
+    "epochs_run": 12,
+    "selected_epoch": 9,
+    "train_steps": 72,
+    "mean_train_loss": 0.6407361574496867,
+    "baseline_validation_macro_f1": 0.6666666666666666,
+    "transformer_validation_macro_f1": 1.0,
+    "validation_delta_vs_baseline": 0.33333333333333337,
+    "baseline_beaten_on_validation": true,
+    "baseline_test_macro_f1": 0.7333333333333333,
+    "transformer_test_macro_f1": 0.8666666666666667,
+    "transformer_test_accuracy": 0.875,
+    "limitations": [
+      "synthetic tiny dataset",
+      "small validation set used for epoch selection",
+      "not an estimate of production quality"
+    ]
+  }
+}

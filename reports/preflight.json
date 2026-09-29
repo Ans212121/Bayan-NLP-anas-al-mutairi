@@ -1,0 +1,31 @@
+{
+  "validator": "local-package-preflight/1.0",
+  "official_course_schema_validated": false,
+  "checks": {
+    "README.md": true,
+    "DECISIONS.md": true,
+    "EVALUATION_REPORT.md": true,
+    "BENCHMARKS.md": true,
+    "PROJECT_SUMMARY.json": true,
+    "AUDIT_T1_T7_AR.md": true,
+    "notebooks/original_bayan.ipynb": true,
+    "source_hash_matches": true,
+    "json_parses": true,
+    "local_contract_tests": true
+  },
+  "package_checks_pass": true,
+  "submission_ready": false,
+  "notebook_models_rerun_by_packager": false,
+  "json_errors": [],
+  "tests_output": "test_alignment (test_contracts.GoldenTests.test_alignment) ... ok\ntest_arabic_protected (test_contracts.GoldenTests.test_arabic_protected) ... ok\ntest_arabic_span (test_contracts.GoldenTests.test_arabic_span) ... ok\ntest_email_phone (test_contracts.GoldenTests.test_email_phone) ... ok\ntest_empty_logits (test_contracts.GoldenTests.test_empty_logits) ... ok\ntest_english (test_contracts.GoldenTests.test_english) ... ok\ntest_entity_boundary (test_contracts.GoldenTests.test_entity_boundary) ... ok\ntest_entity_exact (test_contracts.GoldenTests.test_entity_exact) ... ok\ntest_idempotent_redaction (test_contracts.GoldenTests.test_idempotent_redaction) ... ok\ntest_invalid_word_id (test_contracts.GoldenTests.test_invalid_word_id) ... ok\ntest_non_string (test_contracts.GoldenTests.test_non_string) ... ok\ntest_null (test_contracts.GoldenTests.test_null) ... ok\ntest_out_of_bounds (test_contracts.GoldenTests.test_out_of_bounds) ... ok\ntest_profile_validation (test_contracts.GoldenTests.test_profile_validation) ... ok\ntest_question_tokens_excluded (test_contracts.GoldenTests.test_question_tokens_excluded) ... ok\ntest_reverse_boundary (test_contracts.GoldenTests.test_reverse_boundary) ... ok\ntest_search_alef_and_maksura (test_contracts.GoldenTests.test_search_alef_and_maksura) ... ok\ntest_tatweel_whitespace (test_contracts.GoldenTests.test_tatweel_whitespace) ... ok\ntest_abstention_tradeoff (test_evaluation.EvaluationTests.test_abstention_tradeoff) ... ok\ntest_duplicates (test_evaluation.EvaluationTests.test_duplicates) ... ok\ntest_fixed_labels (test_evaluation.EvaluationTests.test_fixed_labels) ... ok\ntest_group_leakage (test_evaluation.EvaluationTests.test_group_leakage) ... ok\ntest_perfect_interval (test_evaluation.EvaluationTests.test_perfect_interval) ... ok\ntest_validation_only (test_evaluation.EvaluationTests.test_validation_only) ... ok\ntest_zero_accepted (test_evaluation.EvaluationTests.test_zero_accepted) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.002s\n\nOK\n",
+  "pending": [
+    "Run sentiment head",
+    "Rerun topic head with versioned preprocessing and export checkpoint",
+    "Evaluate actual project predictions and manually review error taxonomy",
+    "Run PROJECT_ARTIFACT benchmark and service tests",
+    "Run extension comparison",
+    "Confirm repository URL, program code, trainer and authorship",
+    "Obtain official summary/YAML schema and required-root-file list"
+  ],
+  "note": "Model reports require real runs and review. Passing packaging checks does not award rubric points."
+}

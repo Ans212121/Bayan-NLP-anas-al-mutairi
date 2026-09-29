@@ -1,0 +1,45 @@
+{
+  "provenance": {
+    "cell": 57,
+    "source_sha256": "8dcf084ae88739d54b01a3ff6364b6d7f10afa5f51704306682edea865570379",
+    "kind": "saved_notebook_output"
+  },
+  "data": {
+    "result_type": "MEASURED_SMOKE",
+    "model_id": "distilbert/distilbert-base-multilingual-cased",
+    "device": "cpu",
+    "training_mode": "partial_finetune_cpu",
+    "seed": 42,
+    "ner_data_source": "github_course_file",
+    "ner_steps": 48,
+    "ner_epochs": 12,
+    "ner_mean_loss": 0.862140710077559,
+    "ner_entity_metrics": {
+      "precision": 0.6666666666666666,
+      "recall": 0.5,
+      "f1": 0.5714285714285715,
+      "true_entities": 4,
+      "predicted_entities": 3
+    },
+    "qa_data_source": "github_course_file",
+    "qa_steps": 3,
+    "qa_loss": 3.6450522740681968,
+    "qa_span_test": {
+      "answer": "الرياض",
+      "score": 8.5,
+      "start": 16,
+      "end": 22,
+      "null_margin": -8.5
+    },
+    "qa_null_test": {
+      "answer": null,
+      "reason": "no_answer_in_context",
+      "margin": 6.0
+    },
+    "limitations": [
+      "synthetic tiny datasets",
+      "short training smoke",
+      "NER and QA quality are not production estimates"
+    ]
+  }
+}

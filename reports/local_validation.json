@@ -1,0 +1,11 @@
+{
+  "syntax_validation": "PASS",
+  "python_files_and_notebook_cells_checked": 171,
+  "contract_test_result": "PASS",
+  "contract_tests": 25,
+  "test_evidence": "reports/preflight.json",
+  "new_model_runs_executed": false,
+  "official_schema_verified": false,
+  "source_sha256_matches": true,
+  "note": "Local contract tests are new checks, not invented model evaluation results. Notebook code was parsed, not trained."
+}
